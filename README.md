@@ -59,8 +59,5 @@ The DAG is configured for manual execution (`schedule=None`) and lacks a specifi
 #### Challenge: Modifying Airflow configuration to detect DAGs in locations outside the Airflow folder.
 Solution: Create a `dags` directory in the current folder, place DAGs there, and set the environment variable `export AIRFLOW_HOME="current folder"`.
 
-#### Challenge: Automating Git and DVC commands.
-Solution: Utilize Python's `os` library for automation.
-
 #### Challenge: Installing Airflow in a Python virtual environment.
 Solution: Execute `pip install apache-airflow`.
